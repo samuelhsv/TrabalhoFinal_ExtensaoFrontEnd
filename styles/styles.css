@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Geom:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --color-primary-1: #fff9ea;
+    --color-primary-2: darkgray;
+    --color-primary-3: #1d1d1dad;
+}
+
+* {
+    font-family: "Geom", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fff9ea;
+}
+
+section {
+    padding: 28px 8%;
+}
+
+.btn-default {
+    text-decoration: none; 
+    background-color: var(--color-primary-2); 
+    color: #1d1d1d;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    transition: background-color .3s ease, transform 0.2s;
+}
+
+.btn-default:hover {
+    background-color: #a0a0a0;
+    transform: scale(1.05); 
+}
+
+.social-media-buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.social-media-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: #fff;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #1d1d1d;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow .3s ease;
+}
+
+.social-media-buttons a:hover { 
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    color: #555555;
+    font-size: 1.563rem;
+}
+
+.section-subtitle {
+    font-size: 2.1875rem;
+}
